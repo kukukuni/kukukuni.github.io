@@ -107,7 +107,7 @@ spen{
     cursor: pointer;
 }
 
-/* @media (max-width: 800px) {
+@media (max-width: 800px) {
     .top{
         width: 80vw;
     }
@@ -133,4 +133,4 @@ spen{
         height: 15vh;
     }
     
-} */
+}
