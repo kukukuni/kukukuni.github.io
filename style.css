@@ -48,6 +48,7 @@ button{
 }
 
 .ce{
+    float: right;
     width: 70px;
     margin: 0px 0px 5px 6px;
     height: 60px;
@@ -105,3 +106,31 @@ spen{
     padding-right: 10px;
     cursor: pointer;
 }
+
+/* @media (max-width: 800px) {
+    .top{
+        width: 80vw;
+    }
+    
+    #container{
+        width: 80vw;
+    }
+
+    input{
+        text-align: end;
+        margin-left: 0px;
+        margin-top: 3px;
+        border-radius: 20px;
+        font-size: 30px;
+        height: 15vh;
+        width: 58vw;
+    }
+    
+    .ce{
+        float: right;
+        width:  19vw;
+        margin: 4px 0px 5px 6px;
+        height: 15vh;
+    }
+    
+} */
