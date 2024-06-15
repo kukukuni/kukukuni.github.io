@@ -6,6 +6,14 @@ window.onload = function () {
         create(i);
 }
 
+var inputsize = document.getElementById("input");
+window.onresize = function(event){
+  var widthvw =  parseInt(document.getElementsByClassName("top").width) * 0.15 + 'px';
+  inputsize.width = widthvw;
+  console.log(widthvw);
+}
+
+
 /* 버튼 생성 */
 function create(i) {
     let btn = document.createElement("button");
@@ -34,8 +42,6 @@ function create(i) {
         else
             document.getElementById("input").value += data[i];
     })
-
-    document.getElementById("input").style.width = btn.width*3 + 10;
 }
 
 /* 후위 표기법으로 변환 후 계산 */
