@@ -31,7 +31,6 @@ input{
 
 button{
     display: inline-block;
-    margin: 5px 1px;
     padding: 10px;
     width: 100%;
     height: 100%;
@@ -107,30 +106,39 @@ spen{
     cursor: pointer;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1024px) {
+
     .top{
-        width: 80vw;
+        width: 72vw;
     }
     
     #container{
-        width: 80vw;
+        width: 100%;
     }
 
     input{
         text-align: end;
         margin-left: 0px;
         margin-top: 3px;
+        margin-bottom : 10px;
         border-radius: 20px;
         font-size: 30px;
-        height: 15vw;
-        width: 58vw;
+        height: 16vw;
+        width: 72%;
     }
     
     .ce{
         float: right;
-        width:  18vw;
-        margin: 4px 0px 5px 6px;
-        height: 15vw;
+        width:  23%;
+        margin: 4px 0px 10px 6px;
+        height: 16vw;
     }
-    
+}
+
+    @media (max-width: 600px) {
+        .ce{
+            margin: 4px 0px 10px 3px;
+        }
+    }
+
 }
