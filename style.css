@@ -122,7 +122,7 @@ spen{
         margin-top: 3px;
         border-radius: 20px;
         font-size: 30px;
-        height: 15vh;
+        height: 15vw;
         width: 58vw;
     }
     
@@ -130,7 +130,7 @@ spen{
         float: right;
         width:  19vw;
         margin: 4px 0px 5px 6px;
-        height: 15vh;
+        height: 15vw;
     }
     
 }
