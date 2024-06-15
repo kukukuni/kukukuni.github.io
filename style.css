@@ -124,13 +124,13 @@ spen{
         border-radius: 20px;
         font-size: 30px;
         height: 16vw;
-        width: 72%;
+        width: 70%;
     }
     
     .ce{
         float: right;
         width:  23%;
-        margin: 4px 0px 10px 0px;
+        margin: 4px 0px 10px 3px;
         height: 16vw;
     }
 }
