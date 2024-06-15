@@ -115,6 +115,16 @@ spen{
     #container{
         width: 100%;
     }
+
+    input{
+        text-align: end;
+        margin-left: 0px;
+        margin-top: 3px;
+        border-radius: 20px;
+        font-size: 30px;
+        width: 300%;
+        height: 90%;
+    }
 }
 
 
