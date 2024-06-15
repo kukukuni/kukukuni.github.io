@@ -34,6 +34,8 @@ function create(i) {
         else
             document.getElementById("input").value += data[i];
     })
+
+    document.getElementById("input").style.width = btn.width*3 + 10;
 }
 
 /* 후위 표기법으로 변환 후 계산 */
